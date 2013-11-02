@@ -1,0 +1,14 @@
+{
+	"name": "scraping-with-node-and-jsdom",
+	"description": "A simple demonstration of how to scrape the web with NodeJS and jsdom.",
+	"version": "1.0.0",
+	"private": true,
+	"engines": {
+		"node": ">= 0.8"
+	},
+	"dependencies": {
+		"connect" : "latest",
+		"coffee-script": "1.6.3",
+		"jsdom" : "0.8.8"
+	}
+}
