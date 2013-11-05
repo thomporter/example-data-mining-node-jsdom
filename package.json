@@ -1,11 +1,21 @@
 {
-	"name": "scraping-with-node-and-jsdom",
-	"description": "A simple demonstration of how to scrape the web with NodeJS and jsdom.",
+	"author": {
+                "name": "Thom Porter",
+                "email": "github@thomporter.com"
+        },
+        "name": "example-data-mining-node-jsdom",
+        "description": "A simple demonstration of how to scrape the web with NodeJS and jsdom.",
+        "homepage": "http://blog.thomporter.com/2013/11/02/data-mining-the-web-with-nodejs-jsdom/",
 	"version": "1.0.0",
 	"private": true,
+	 "repository": {
+                "type": "git",
+                "url": "https://github.com/thomporter/example-data-mining-node-jsdom"
+        },
 	"engines": {
 		"node": ">= 0.8"
 	},
+	
 	"dependencies": {
 		"connect" : "latest",
 		"coffee-script": "1.6.3",
